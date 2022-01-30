@@ -1,0 +1,325 @@
+@media screen and (min-width: 320px) and (max-width: 420px)  {
+    main{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap-reverse;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 7px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 9px;
+        margin: 17px;
+    }
+    .nav-a{
+        text-decoration: none;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: black;
+        font-family: system-ui;
+        padding: 10px;
+    }
+    .nav-a:hover{
+        border-bottom: solid gray 1px;
+    }
+    .img1{
+        width: 100%;
+        height: auto;
+        transform: rotate(360deg);
+    }
+    .img1:hover{
+        transition: ease all 0.1s;
+        filter: sepia(1);
+    }
+    .img-2{
+        width: 100vw;
+        margin: 50px 0px 30px 0px;
+        height: 41vh;
+    }
+    .img-2:hover{
+        transition: 0.3s;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    .conteiner-1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 12px;
+    }
+    spam.spam-new{
+        border-radius: 7px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.981);
+        color: white;
+        margin: 0 10px 0 10px;
+        padding: 2px 2px 2px 6px;
+        font-size: 10px;
+    }
+    .p-conteiner{
+        vertical-align: inherit;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: system-ui;
+        letter-spacing: 1px;
+    }
+    .h1-conteiner{
+        width: 100%;
+        text-transform: capitalize;
+        text-align: center;
+        margin: 20px 0px 23px 0px;
+        font-size: 25px;
+    }
+    .p1-conteiner{
+        text-align: center;
+        font-size: inherit;
+        display: flex;
+        align-items: center;
+        margin: 0px 8px 30px 8px;
+        text-transform: capitalize;
+    }
+    .conteiner-botao{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 15vh;
+        align-items: center;
+        margin: 0 0 30px 0px;
+    }
+    .bnt-conteiner{
+        height: 10vh;
+        margin: 0 0 12px 0px;
+        width: 94vw;
+        padding: 5px;
+        background: #ff4804;
+        color: white;
+        border: solid 1px white;
+        font-size: 13px;
+        font-family: system-ui;
+        text-transform: capitalize;
+        border-radius: 10px;
+    }
+    .p3-conteiner{
+        color: gray;
+    }
+
+}
+@media screen and (min-width: 420px) and (max-width: 768px) {
+    main{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap-reverse;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 17px 0px 32px 0px;
+    }
+    .nav-a{
+        font-size: 15px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0 5px 0 5px;
+        color: black;
+       
+    }
+    .nav-a:hover{
+        border-bottom: solid black 1px;
+    }
+    .img1{
+        width: 100vw;
+        margin: 50px 0px 30px 0px;
+        height: 60vh;
+        transition: ease all 0.5s;
+    }
+    .img1:hover{
+        filter: sepia(1.5);
+    }
+    .img-2{
+        width: 100vw;
+        margin: 50px 0px 30px 0px;
+        height: 41vh;
+    }
+    .img-2:hover{
+        transition: 0.3s;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    .conteiner-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+    spam.spam-new{
+        border-radius: 7px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.981);
+        color: white;
+        margin: 0 10px 0 10px;
+        padding: 2px 2px 2px 6px;
+        font-size: 10px;
+    }
+    .p-conteiner{
+        vertical-align: inherit;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: system-ui;
+        letter-spacing: 1px;
+    }
+    .h1-conteiner{
+        width: 100%;
+        text-transform: capitalize;
+        text-align: center;
+        margin: 20px 0px 23px 0px;
+        font-size: 25px;
+    }
+    .p1-conteiner{
+        text-align: center;
+        font-size: inherit;
+        display: flex;
+        align-items: center;
+        margin: 0px 8px 30px 8px;
+        text-transform: capitalize;
+    }
+    .conteiner-botao{
+        display: flex;
+        width: 100%;
+        height: 15vh;
+        align-items: center;
+        margin: 0 0 30px 0px;
+    }
+    .bnt-conteiner{
+        height: 10vh;
+        width: 49vw;
+        padding: 5px;
+        background: #ff4804;
+        color: white;
+        border: solid 1px white;
+        font-size: 13px;
+        font-family: system-ui;
+        text-transform: capitalize;
+        border-radius: 10px;
+        margin: 0 62px 0 56px;
+    }
+    .p3-conteiner{
+        color: gray;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    main{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap-reverse;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 17px 0px 32px 0px;
+    }
+    .nav-a{
+        font-size: 15px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0 5px 0 5px;
+        color: black;
+       
+    }
+    .nav-a:hover{
+        border-bottom: solid black 1px;
+    }
+    .img1{
+        width: 100vw;
+        margin: 50px 0px 30px 0px;
+        height: 60vh;
+        transition: ease all 0.5s;
+    }
+    .img1:hover{
+        filter: sepia(1.5);
+    }
+    .img-2{
+        width: 100vw;
+        margin: 50px 0px 30px 0px;
+        height: 70vh;
+    }
+    .img-2:hover{
+        transition: 0.3s;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    .conteiner-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 18px 0px 0px 96px;
+    }
+    spam.spam-new{
+        border-radius: 7px;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.981);
+        color: white;
+        margin: 0px 19px 0px 0px;
+        padding: 2px 8px 5px 19px;
+        font-size: 25px;
+    }
+    .p-conteiner{
+        font-size: 26px;
+        text-transform: uppercase;
+        font-family: system-ui;
+        letter-spacing: 1px;
+        margin: 0 0 20px 0px;
+    }
+    .h1-conteiner{
+        width: 100%;
+        text-transform: capitalize;
+        text-align: center;
+        margin: 20px 0px 23px 0px;
+        font-size: 60px;
+    }
+    .p1-conteiner{
+        text-align: center;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        margin: 0px 8px 50px 8px;
+        text-transform: capitalize;
+    }
+    .conteiner-botao{
+        display: flex;
+        width: 100%;
+        height: 15vh;
+        align-items: center;
+        margin: 0 0 30px 0px;
+    }
+    .bnt-conteiner{
+        height: 13vh;
+        width: 47vw;
+        padding: 5px;
+        background: #ff4804;
+        color: white;
+        border: solid 1px white;
+        font-size: 25px;
+        font-family: system-ui;
+        text-transform: capitalize;
+        border-radius: 10px;
+        margin: 0px 62px 0px 53px;
+    }
+    .p3-conteiner{
+        color: gray;
+        font-size: 25px;
+    }
+}

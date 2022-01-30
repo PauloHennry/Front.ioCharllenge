@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
